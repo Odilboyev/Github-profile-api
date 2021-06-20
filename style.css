@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+body{
+    background:  url(https://dl.dropbox.com/s/mpmu0gjtxv2x3fs/Webp.net-resizeimage%20%281%29.jpg?raw=1) no-repeat center center fixed; 
+    background-size: cover;
+}
+::placeholder{
+    color: #c0c0c0;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+h2{
+    text-align: center;
+    margin: 50px auto;
+    color: #ffffff;
+    font-size: 30px;
+}
+.card{
+    width: 400px;
+    padding: 2rem;
+    margin: 100px auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    border-radius: 8px;
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+}
+.card-img{
+    height: 120px;
+    width: 120px;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: absolute; */
+    margin: 30px auto 20px  auto;
+}
+.card-img img{
+    width: 85%;
+    margin: auto;
+    border-radius: 50%;
+}
+h6{
+    margin: 20px 0 !important;
+}
+.desc{
+    width: 100%;
+    text-align: center;
+}
+.flw{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-bottom: 10%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.151);
+    -webkit-backdrop-filter: blur(20px);
+}
+.primary-text{
+    color: #d5d5d5;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.7px;
+    margin: 5px 0;
+}
+.secondary-text{
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+button{
+    background-color: rgba(255, 255, 255, 0.109);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    color: #ffffff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.card button{
+    width: 100%;
+    padding: 15px 0;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-radius: 5px;
+}
+
+/* form  */
+
+form{
+    width: 60%;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: 75% 25%;
+    -webkit-box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+            box-shadow: 20px 20px 22px rgba(0,0,0,0.2);
+}
+input{
+    background-color: rgba(255, 255, 255, 0.178);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    border: none;
+    outline: none;
+    padding: 20px ;
+    color: #001a3b;
+    font-size: 18px;
+    border-radius: 8px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+form button{
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    transition: all 0.5s ease;
+    font-size: 18px;
+}
+form button:hover{
+    background-color: rgba(255, 255, 255, 0.582);
+    color: #0c0570;
+}
+
+.details{
+    display: -ms-grid;
+    display: grid;
+    width: 100%;
+    height: 60px;
+    padding: 5px 0;
+    -ms-grid-columns: auto auto;
+    grid-template-columns: auto auto;
+    background-color: rgba(255, 255, 255, 0.06);
+    -webkit-backdrop-filter: blur(20px);
+            backdrop-filter: blur(20px);
+    margin-bottom: 30px;
+}
+.details>div{
+    text-align: center;
+}
+.details>div:first-child{
+    border-right: 2px solid rgba(255,255,255,0.08);
+}
